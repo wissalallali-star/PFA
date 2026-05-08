@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+<style>
+
+</style>
+
+
+</head>
+<body>
+
+
+
+
+<nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="imgs/logo.png" alt="logo" class="logo">
+            <div class="ms-2" style="line-height: 20px;">
+                <strong>Siha<b style="color: rgb(157, 12, 113);">RDV</b></strong><br>
+                <small>Rendez-vous médecin en ligne</small>
+            </div>
+        </a>
+
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav align-items-center">
+
+                
+                <li class="nav-item">
+                    <a class="nav-link ms-3 aa" href="#">Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link ms-3 aa" href="#">Contact</a>
+                </li>
+                    
+                
+                <!--
+                 -->
+                <li class="nav-item">
+                    <a class=" nav-link ms-3" href="#" style="background-color: rgba(24, 118, 95, 0.689); color:aliceblue; border-radius: 4px;">Vous étes patient ?</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                    <a class="btn btn-custom ms-3 nav-link disabled" aria-disabled="true" href="#">A propos</a>
+                </li>
+                -->
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<center>
+
+
+
+
+<form>
+
+<table style="border-collapse: separate; border-spacing: 0 15px;">
+
+    <tr>
+        <td><label for="nom">Nom :</label></td>
+        <td><input type="text" id="nom" placeholder="Entrez votre nom"></td>
+    </tr>
+
+    <tr>
+        <td><label for="prenom">Prénom :</label></td>
+        <td><input type="text" id="prenom" placeholder="Entrez votre prénom"></td>
+    </tr>
+
+    <tr>
+        <td><label for="cin">CIN :</label></td>
+        <td><input type="text" id="cin" placeholder="Entrez votre CIN"></td>
+    </tr>
+
+    <tr>
+        <td><label for="etablissement">Etablissement :</label></td>
+        <td><input type="text" id="etablissement" placeholder="Entrez votre établissement"></td>
+    </tr>
+
+    <!-- Option Public / Privé -->
+    <tr>
+        <td><label>Type :</label></td>
+        <td>
+            <input type="radio" name="type" id="public">
+            <label for="public">Public</label>
+
+            &nbsp;&nbsp;
+
+            <input type="radio" name="type" id="prive">
+            <label for="prive">Privé</label>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="email">Email :</label></td>
+        <td><input type="email" id="email" placeholder="exemple@gmail.com"></td>
+    </tr>
+
+    <tr>
+        <td><label for="tel">Téléphone :</label></td>
+        <td><input type="tel" id="tel" placeholder="+212 6XXXXXXXX"></td>
+    </tr>
+
+    <tr>
+        <td><label for="mdp">Mot de passe :</label></td>
+        <td><input type="password" id="mdp" placeholder="Créer un mot de passe"></td>
+    </tr>
+
+    <tr>
+        <td><label for="cmdp">Confirmation :</label></td>
+        <td><input type="password" id="cmdp" placeholder="Confirmer le mot de passe"></td>
+    </tr>
+
+    <tr>
+        <td valign="top">
+            <label>Conditions :</label>
+        </td>
+
+        <td>
+            <div style="width:300px; height:120px; overflow-y:scroll; border:1px solid gray; padding:10px; text-align:left;">
+                Bienvenue sur notre plateforme médicale.
+                En créant un compte, vous acceptez de fournir des informations correctes
+                et de respecter les règles d’utilisation du site.
+                Vos données personnelles resteront confidentielles et sécurisées.
+                Toute utilisation abusive du service peut entraîner la suspension du compte.
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td>
+            <input type="checkbox" id="condition">
+            <label for="condition">J'accepte les conditions d'utilisation</label>
+        </td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td>
+            <button type="submit">Créer un compte</button>
+        </td>
+    </tr>
+
+</table>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="last" style="text-align: center;">
+        <p>2026 Mon site -- Tous droits reservés</p>
+    </div>
+    <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3" style="background-color: rgba(214, 214, 244, 0.621) !important;">
+        Un problème, une question ? Contactez-nous par email
+    </div>
+
+</center>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> <!-- dropdowns fl ettablissement -->
+    <script>
+        $(document).ready(function(){
+            $(".service").animate({left:"0px"},3000);
+            });
+    </script>
+</body>
+</html>

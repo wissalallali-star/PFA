@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(241, 247, 252) !important;
+}
+
+
+.logo{ 
+    max-width: 8%;
+    height: auto;
+    margin-left: 10px;
+}
+
+#pre{
+    background-image: url(imgs/doct.png);
+    background-repeat:no-repeat;
+   /* background-attachment:fixed ;*/
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+#inpt{
+    border: none;
+    border-radius: 5px;
+    width: 22em;
+    height: 2.5em;
+    background-color: rgba(30, 30, 88, 0.348);
+    padding: 20px;
+}
+#inpt input{
+    font-size: 25px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 12px;
+}
+.btn1{
+    background-color: rgb(157, 12, 113);
+    color: aliceblue;
+    width: 10em;
+    
+    background-image: url("imgs/rech.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+
+}
+
+.pos{
+    background-image: url("imgs/pos.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 60px;
+
+}
+
+#last{
+  text-align: center;
+  opacity: 0.5;
+  margin-top: 11%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand strong {
+    font-size: 24px;
+    color: #263663ea;
+}
+
+.navbar-brand small {
+    font-size: 12px;
+    color: gray;
+}
+.nav-link {
+    white-space: nowrap;
+}
+
+.aa{
+    color: rgba(24, 118, 95, 0.689) !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
+.service{
+            position: relative;
+            display: inline-block;
+        }
+
+        .service:nth-child(1){
+            left: 2000px;
+        }
+        .service:nth-child(2){
+            left: -2000px;
+        }
+        .service:nth-child(3){
+            left: 2000px;
+        }
+        .service:nth-child(4){
+            left: -2000px;
+        }
+
+
+
+/*
+
+
+*/
+
+
+.medecin, .patient {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 50px 20px;
+}
+.patient h1 b{
+    color: #9e2769;
+    font-weight: bold;
+}
+
+.medecin h1, .patient h1 {
+    margin-top: 2em;
+    margin-left: 1.5em;
+    font-size: 50px;
+    font-weight: 300;
+    color: #777;
+}
+
+.medecin h1 b {
+    color: #3aa0a4;
+    font-weight: bold;
+}
+
+.medecin .box,.patient .box{
+    margin: 40px;
+    width: 80%;
+    background-color: #3aa0a4;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: white;
+}
+
+.patient .box{
+    background-color: #9e276906;
+    color: #777;
+}
+
+.service .btn,.patient .btn{
+    
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 2px solid white;
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #9e2769 !important;
+}
+
+.patient .btn:hover {
+    background-color: rgb(191, 9, 145) !important;
+}
+
+.medecin .text p, .patient .text p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.medecin .btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.medecin .btn:hover {
+    background-color: white;
+    color: #3aa0a4;
+}
